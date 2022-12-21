@@ -7,7 +7,7 @@ body{
    
 }
 .main{
-    background-color: rgb(230, 232, 230);
+    background-color: rgb(244, 243, 242);
     padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
@@ -18,10 +18,23 @@ body{
 }
 .nav{
     text-align: center;
+    padding: 10px;
 }
-.
+.box{
+    background-color:  rgb(148, 71, 219);
+    display: block;
+    flex: 1;
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 200px;
+}
 .footer{
     background-color: indigo;
+    text-align: center;
+    margin-top: 10px;
 }
 .flex-container {
     background-color: brown;

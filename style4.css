@@ -1,0 +1,116 @@
+.top{
+    background-color: rgb(69, 69, 69);
+    max-width: 100%;
+    height: 75px;
+}
+
+.main-box {
+    margin: 25px;
+    max-width: 100%;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+}
+
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.top-in-box {
+    background-color: rgb(123, 123, 123);
+    max-width: 100%;
+    height: 40px;
+}
+
+.flex-in-items {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-left: 0px;
+}
+
+.inbox {
+    background-color: rgb(57, 57, 57);
+    max-width: 100%;
+    height: 45%;
+    margin-right: 50px;
+}
+
+.min-box {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.box-in {
+    background-color: rgb(72, 72, 72);
+    max-width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.text-in {
+    border: solid 2px rgb(75, 69, 69);
+    max-width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.box-4-max {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer{
+    background-color: rgb(44, 42, 42);
+    max-width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.text-box {
+    margin-top: 20px;
+    margin-right: 50px;
+    max-width: 100%;
+    height: 150px;
+    border: 1px solid rgb(11, 9, 9);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.text-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.text-box .caption {
+    width: calc(100%-220px);
+    font-size: 20px;
+}
